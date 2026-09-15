@@ -9,3 +9,6 @@ jobs:
     steps:
       - name: Checkout repository
         run: echo "The job was automatically triggered by a ${{ github.event_name }} event."
+
+      - name: Data da execução
+        run: echo "A execução do workflow foi iniciada 14/09/2026."
