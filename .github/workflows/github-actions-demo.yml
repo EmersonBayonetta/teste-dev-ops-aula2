@@ -8,7 +8,10 @@ jobs:
     runs-on: windows-latest
     steps:
       - name: Checkout repository
-        run: echo "The job was automatically triggered by a ${{ github.event_name }} event."
-
+        run: echo "The job was automatically triggered by a ${{ github.event}} event."
       - name: Data da execução
-        run: echo "A execução do workflow foi iniciada 14/09/2026."
+        run: echo "The workflow run was created at 14/09/2026."
+      - name: terceiro step
+        run: echo "o repositório que está sendo executado é o ${{github.repository}}."
+       
+      
