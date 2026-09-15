@@ -5,7 +5,7 @@ on: [push]
 
 jobs:
   Explore-Github-Actions:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     steps:
       - name: Checkout repository
         run: echo "The job was automatically triggered by a ${{ github.event_name }} event."
